@@ -1,0 +1,10 @@
+{
+    "presets": [
+        [
+            "modern-browsers",
+            { 
+                "loose": true 
+            }
+        ]
+    ]
+}
