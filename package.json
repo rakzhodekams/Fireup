@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "learning babel js",
   "main": "index.js",
+  "bin": {
+    "formatted-linting": "./node_modules/.bin/index.js"
+  },
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
-  "author": "",
+  "author": "OscarFM aka OdicforceSounds",
   "license": "ISC",
   "devDependencies": {
     "airbnb-browser-shims": "^3.2.1",
