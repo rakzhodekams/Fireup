@@ -1,0 +1,90 @@
+body{
+  margin:0;
+  padding:0;
+  background: #34495e;
+}
+.box{
+  position: relative;
+  background: #01fee0;
+  padding: 5px;
+  overflow: hidden;
+}
+.box a{
+  width:40px;
+  height:40px;
+  position: relative;
+  float: left;
+  text-indent:-9999px;
+  margin:5px;
+  cursor: pointer;
+}
+#white{
+  background: #FFFFFF;
+}
+#blue{
+  background: #3498db;
+}
+#green{
+  background: #2ecc71;
+}
+#gray{
+  background: #34495e;
+}
+#yellow{
+  background: #f1c40f;
+}
+#orange{
+  background: #e67e22;
+}
+#red{
+  background: #e74c3c;
+}
+#black{
+  background: #000000;
+}
+#spaceBetween {
+  padding: 0.5%;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+
+  margin-top: 10px;
+  float: right;
+  color: #000000;
+}
+#search{
+  border-block: 13px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 2%;
+  width: 30%;
+}
+.topMenu{
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  align-self: auto;
+}
+.menuLink{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  background: blue;
+  color: #01fee0;
+  text-decoration: none;
+  padding: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.menuLink:hover{
+  background: yellow;
+  color: #000000;
+}
+#socialMedia{
+  margin-top: 10%;
+  margin-bottom: 5px;
+
+  position: relative;
+  font-size: 34px;
+  width: 26px;
+  float: right;
+  background-color: wheat;
+}
