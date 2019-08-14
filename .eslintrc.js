@@ -1,23 +1,35 @@
 module.exports = {
   env: {
     browser: true,
+    node: true,
     es6: true,
+		'jest/globals': true,
+		'shared-node-browser': true,
   },
   extends: [
     'airbnb',
+    'plugin:flowtype/recommended',
+		'plugin:jest/recommended',
+		'plugin:react/recommended',
+		'eslint-config-airbnb',
+		'prettier',
+		'prettier/flowtype',
+		'prettier/react',
   ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       "arrowFunctions": true,
       "binaryLiterals": true,
       "blockBindings": true,
-      "classes": false,
+      "classes": true,
       "defaultParams": true,
       "destructuring": true,
+      "experimentalObjectRestSpread": true,
       "forOf": true,
       "generators": true,
       "modules": true,
@@ -40,7 +52,14 @@ module.exports = {
   },
   plugins: [
     'react',
+		'redux-saga',
+		'jest',
+		'flowtype',
+		'prettier',
+		'compat',
+		'import'
   ],
   rules: {
+    strict:0
   },
 };
