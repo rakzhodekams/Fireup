@@ -63,6 +63,7 @@ body{
   position: relative;
   text-align: center;
   align-self: auto;
+  background: darkblue;
 }
 .menuLink{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -70,21 +71,22 @@ body{
   background: blue;
   color: #01fee0;
   text-decoration: none;
-  padding: 2%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5ex;
+  border-block-start-color: red;
 }
 .menuLink:hover{
   background: yellow;
   color: #000000;
 }
 #socialMedia{
-  margin-top: 10%;
-  margin-bottom: 5px;
-
   position: relative;
   font-size: 34px;
   width: 26px;
   float: right;
-  background-color: wheat;
+  display: block;
+  background: aquamarine;
+  transform: rotate(120,120,210,320);
 }

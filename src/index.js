@@ -29,7 +29,7 @@ function socialmedia(id) {
   const linkStart = '<a href=';
   const linkBehave = 'target=_blank>';
   const linkProps = '<img width="24px"';
-  // const linkContent = ' * ';
+  // const linkContent = '  ';
   const linkEnd = '></a>';
   const setupBSLink = `${linkStart + bs} ${linkBehave}${linkProps}${linkEnd}`;
   const setupFBLink = linkStart + fb + linkBehave + linkProps  + linkEnd;
@@ -38,14 +38,11 @@ function socialmedia(id) {
     const setupREDLink = linkStart + red + linkBehave + linkProps  + linkEnd;
     const setupStackLink = linkStart + stof + linkBehave + linkProps + linkEnd;
     const setupTUMLink = linkStart + tum +  linkBehave + linkProps + linkEnd;
-    const setupTWILink = linkStart + twit + linkBehave + linkProps + linkEnd; */
- const setupYTILink = `${linkStart + tube} ${linkBehave}${linkProps}${linkEnd}`;
+    const setupTWILink = linkStart + twit + linkBehave + linkProps + linkEnd;
+ const setupYTILink = linkStart + tube+linkBehave$+linkProps+linkEnd;
   // eslint-disable-next-line no-unused-consts
   const injectAll = setupBSLink + setupYTILink;
 
   // eslint-disable-next-line no-constant-condition
-  if (true) {
-    // simplifying ElementId Acess to Inject Data
-    document.getElementById('blogspot').innerHTML = social.blogspot;
-  }
+ 
 }socialmedia(); 
