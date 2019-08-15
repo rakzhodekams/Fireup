@@ -72,8 +72,8 @@ body{
   color: #01fee0;
   text-decoration: none;
   padding: 1%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+
+
   border-radius: 5ex;
   border-block-start-color: red;
 }
@@ -82,11 +82,23 @@ body{
   color: #000000;
 }
 #socialMedia{
-  position: relative;
+  position: absolute;
   font-size: 34px;
+  padding:1%;
   width: 26px;
-  float: right;
-  display: block;
-  background: aquamarine;
-  transform: rotate(120,120,210,320);
+  float: left;
+  display: relative;
+
+}
+.searchBox{
+  text-align: center;
+}
+.header{
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  font-size: 48px;
+  font-display: initial;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: darkblue;
 }
