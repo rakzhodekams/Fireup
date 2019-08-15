@@ -1,7 +1,6 @@
 body{
   margin:0;
   padding:0;
-  background: #34495e;
 }
 .box{
   position: relative;
@@ -10,13 +9,17 @@ body{
   overflow: hidden;
 }
 .box a{
-  width:40px;
-  height:40px;
+  width:20px;
+  height:20px;
   position: relative;
   float: left;
   text-indent:-9999px;
-  margin:5px;
+  
   cursor: pointer;
+  border-radius: 50%;
+  padding: 0.3%;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 #white{
   background: #FFFFFF;
@@ -44,19 +47,19 @@ body{
 }
 #spaceBetween {
   padding: 0.5%;
-  font-size: 24px;
+  font-size: calc(1.3vw + 0.5vh + 0.3vmin);
   font-family: 'Courier New', Courier, monospace;
-
   margin-top: 10px;
   float: right;
   color: #000000;
 }
 #search{
-  border-block: 13px;
   padding: 10px;
-  margin-top: 5px;
-  margin-left: 2%;
-  width: 30%;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 50%;
+  height: 10px;
+  font-size: calc(1.3vw + 0.5vh + 0.3vmin);
 }
 .topMenu{
   overflow: hidden;
@@ -72,8 +75,8 @@ body{
   color: #01fee0;
   text-decoration: none;
   padding: 1%;
-
-
+  margin:0.5%;
+  display: inline-flex;
   border-radius: 5ex;
   border-block-start-color: red;
 }
@@ -88,7 +91,6 @@ body{
   width: 26px;
   float: left;
   display: relative;
-
 }
 .searchBox{
   text-align: center;
@@ -101,4 +103,16 @@ body{
   font-display: initial;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: darkblue;
+}
+.mainPage{
+  background-position: 35%;
+  background: #000000;
+
+  margin:25%;
+  position: relative;
+}
+.mainPage h1{
+  text-align: center;
+  color:yellow;
+  font-size: calc(1.3vw + 0.5vh + 0.3vmin);
 }
