@@ -1,6 +1,7 @@
 # Learning Babel JS
 
-#### Install Babel + Webpack + esLint and + usefull tools
+#### Install Babel + Webpack + esLint + jshint + es6 + usefull JavaScript tools
+
  ```javascript
 npm install 
 ```
