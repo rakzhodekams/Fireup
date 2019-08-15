@@ -13,10 +13,10 @@ module.exports = {
   plugins: [
     new webpack.ProgressPlugin(),
     new CopyPlugin([
-      { from: './public', to: './', ignore: './public/index.html' },
+      { from: './src', to: './', ignore: './src/index.html' },
     ]),
     new HtmlWebpackPlugin({
-      template: './public/index.html',
+      template: './src/index.html',
     }),
   ],
   module: {
