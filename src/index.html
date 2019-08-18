@@ -4,84 +4,84 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Testing</title>
-    <link rel="stylesheet" href="index.css" title="stylesheet">
+    <link rel="stylesheet" href="index.css">
 
+    <link rel="stylesheet" href="./components/topmenus/topmenus.css">
+    <link rel="stylesheet" href="./components/socialnetworks/socialnetworks.css">
+    <link rel="stylesheet" href="./components/leftMenu/leftMenu.css">
   </head>
   <body>
+    <!--HEADER START-->
     <header>
+      <!--TOP BACKGROUND COLORS-MENU START -->
 
-      <div class="box">
-        <a onclick="changecolor('white')" id="white">#ffffff</a>
-        <a onclick="changecolor('blue')" id="blue">#3498db</a>
-        <a onclick="changecolor('green')" id="green">#2ecc71</a>
-        <a onclick="changecolor('gray')" id="gray">#34495e</a>
-        <a onclick="changecolor('yellow')" id="yellow">#f1c40f</a>
-        <a onclick="changecolor('orange')" id="orange">#e67e22</a>
-        <a onclick="changecolor('red')" id="red">#e74c3c</a>
-        <a onclick="changecolor('black')" id="black">#000000</a>
-        <input type="text" id="search" placeholder="Type to Search anything about OdicforceSounds (not working)">
-        <span id="spaceBetween">OdicforceSounds.com</span>
-      </div>
-
+      <!--TOP BACKGROUND COLORS-MENU START -->
+      <!--TOP MENU START -->
       <nav class="topMenu">
-        <a href="#" id="art" class="menuLink">Art</a>
-        <a href="#" id="blog" class="menuLink">Blog</a>
-        <a href="#" id="code" class="menuLink">Code</a>
-        <a href="#" id="de" class="menuLink">De</a>
-        <a href="#" id="eg" class="menuLink">Eg</a>
-        <a href="#" id="fun" class="menuLink">Fun</a>
-        <a href="#" id="game" class="menuLink">Game</a>
-        <a href="#" id="in" class="menuLink">In</a>
-        <a href="#" id="lo" class="menuLink">Lo</a>
-        <a href="#" id="om" class="menuLink">Om</a>
-        <a href="#" id="wiki" class="menuLink">Wiki</a>
+        <span id="art" class="menuLink"></span>
+        <span id="blog" class="menuLink"></span>
+        <span id="code" class="menuLink"></span>
+        <span id="de" class="menuLink"></span>
+        <span id="eg" class="menuLink"></span>
+        <span id="fun" class="menuLink"></span>
+        <span id="game" class="menuLink"></span>
+        <span id="in" class="menuLink"></span>
+        <span id="lo" class="menuLink"></span>
+        <span id="om" class="menuLink"></span>
+        <span id="wiki" class="menuLink"></span>
       </nav>
-
+      <!--TOP MENU END -->
     </header>
+    <!--HEADER END-->
+    <!--ASIDE START-->
     <aside>
       <div id="socialMedia">
         <span id="blogspot"></span>
         <span id="facebook"></span>
         <span id="github"></span>
+        <span id="gitlab"></span>
         <span id="instagram"></span>
+        <span id="reddit"></span>
         <span id="stackoverflow"></span>
+        <span id="keybase"></span>
         <span id="tumblr"></span>
         <span id="twitter"></span>
         <span id="youtube"></span>       
       </div>
     </aside>
+    <!--ASIDE END-->
+    <!--ARTICLE START
+ -->
+    <!--ARTICLE END-->
 
-    <article>
-      <div class="searchBox">
-        <div class="header">
-          <h1>OscarFM</h1>
-        </div>
-      <div class="container">
-        <div class="profile">
-          <div class="titles">
-            <div class="album">
-              <span class="title"></span>
-              <span class="image"></span>
-              <span class="player"></span>
-              <span class="description"></span>
-            </div>
-          </div>
-        </div>
+    <!--MAIN PAGE CONTENT START -->
+    <main class="mainContent">
+      <div class="profileInformation">
+        <span class="profileData">
+          <p class="profilePicture"><b>YinYang</b></p>
+          <p class="profileSlogan"><b>Tao</b></p>
+        </span>
+        <span class="artworkData">
+          <p class="artworkName"><b>Visions</b></p>
+        </span>
+        <span class="albumsData">
+            <p class="albumName"><b>Who</b></p>
+            <p class="albumImage"><b>OscarFM</b></p>
+            <p class="albumDescription"><b>Love</b></p>
+        </span>
+        <span class="tracksData">
+            <p class="trackName"><b>License</b></p>
+            <p class="trackImage"><b>ToolKit</b></p>
+            <p class="trackImage"><b>Fantasy</b></p>
+            <p class="trackImage"><b>Logic</b></p>
+            <p class="trackDescription"><b>Application</b></p>
+        </span>
       </div>
-    </article>
 
-
-
-
-
-    <div class="mainPage">
-
-    </div>
-
-
-    
-    <script src="main.js"></script>
-    <script src="index.js"></script>
-    
+    </main>
+  
+    <script src="./components/topmenus/topmenus.js"></script>
+    <script src="./components/socialnetworks/socialnetworks.js"></script>
+    <script src="./components/profile/profile.js"></script>    
   </body>
 </html>

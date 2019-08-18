@@ -1,0 +1,14 @@
+#socialMedia{
+    position: relative;   
+    width: 26px;
+    float: right;
+    display: relative;
+    margin-top: 5%;
+}
+#socialMedia a{
+    font-size: calc(1.2vw + 0.5vh + 0.3vmin);
+    margin-top: 1%;
+}
+#socialMedia a:hover{
+    font-size: 48px;
+}

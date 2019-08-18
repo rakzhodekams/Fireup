@@ -1,0 +1,22 @@
+.topMenu{
+  text-align: center;
+  align-self: auto;
+  background: darkblue;
+}
+.menuLink{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Verdana', 'sans-serif';
+  font-size: calc(1.3vw + 0.5vh + 0.3vmin);
+  background: #01fee0;
+  text-decoration: none;
+  padding: 5px;
+}
+.menuLink:hover{
+  background: yellow;
+  color: #000000;
+  border-radius: 50%;
+}
+.menuLink a{
+  color:blue;
+  text-decoration: none;
+}
+  
