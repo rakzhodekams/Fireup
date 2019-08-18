@@ -1,25 +1,48 @@
 .leftMenuContent{
 padding: 0%;
-position: fixed;
+position: relative;
 text-align: center;
 width:fit-content;
 display: block;
-background: #00000000;
+background: transparent;
+margin-top: 2%;
+margin-bottom: 2%;
 }
-.menuConntent{
+.menuContent{
 background: #000000; 
 padding: 10px;
 }
 
 .item{
-background: #000000;
-color: royalblue;
 font-size: calc(1.2vw + 0.5vh + 0.3vmin);
 position:relative;
 align-content:center;
-display:block;
+
 }
 .item:hover{
-background: #f1c40f;
+    background: orangered;
 }
-
+#yy {
+    color:white;
+}
+#t {
+    color:aquamarine;
+}
+#v{
+    color:greenyellow;
+}
+#w{
+    color:yellow;
+}
+#o{
+    color:grey;
+}
+#lov{
+    color: red;
+}
+#li{
+    color: orange
+}
+#to{
+    color: lightseagreen;
+}

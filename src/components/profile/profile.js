@@ -1,80 +1,79 @@
 const profile = {
-    realName: 'OscarFM',
-    profileName: 'Rakzhodekams',
-    profilePicture: '',
-    profileSlogan: 'If Time is Build within Our Self\'s, then Time is our self\'s as result of Time it self',
-    profileArtwork: 'OdicforceSounds',
-    profileAlbums: [
+    rn: 'OscarFM', // Stands for RealName
+    pn: 'OdicforceSounds', // Stands for ProfileName
+    pp: '', // Stands for ProfilePicture
+    ps: 'If Time is Build within Our Self\'s, then Time is our self\'s as result of Time it self', // Stands for ProfileSlogan
+    pa: [ // Stands for ProfileAlbums ( Music, Text and Image )
         {
-            albumName: 'Visions of Thor - Mỹ Sơn',
-            albumImage: '',
-            albumDescription: '',
-            albumTracks: [
+            an: 'Visions of Thor - Mỹ Sơn', // Stands for AlbumName
+            ai: '', // Stands for AlbumImage
+            ad: '', // Stands for AlbumDescription
+            at: [ // Stands for AlbumTracks
                 {
-                    trackName01: ['Emerge - Internal Upgrade'],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: ['Emerge - Internal Upgrade'],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: ['Water Horses - Woman Freedom'],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: ['Water Horses - Woman Freedom'],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: ['Pain vs Love'],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: ['Pain vs Love'],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: ['Black Birds - Red Eyes'],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: ['Black Birds - Red Eyes'],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: ['Burned In The Hands Of Wind - Noisy Silence'],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: ['Burned In The Hands Of Wind - Noisy Silence'],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: ['Summer Night - Rock and Roll '],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: ['Summer Night - Rock and Roll '],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: ['V - Euclidean Space'],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: ['V - Euclidean Space'],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: ['Invisible Frequency - You can change'],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: ['Invisible Frequency - You can change'],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: ['MA6NATA - EVIL INSIDE'],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: ['MA6NATA - EVIL INSIDE'],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: ['Shake - My Snakes'],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: ['Shake - My Snakes'],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },
                 {
-                    trackName11: ['We Are The Ones'],
-                    trackPlayer11: [''],
-                    trackImage11: [''],
-                    trackDescription11: ['']
+                    tn11: ['We Are The Ones'],// Stands for TrackName
+                    tp11: [''], // Stands for 
+                    ti11: [''],
+                    td11: ['']
                 },                                                                                                                                                
             ]
         },
@@ -84,64 +83,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -151,64 +150,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -218,64 +217,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -285,64 +284,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -352,64 +351,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -419,64 +418,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -486,64 +485,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -553,64 +552,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -620,64 +619,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -687,64 +686,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -754,64 +753,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -821,64 +820,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -888,64 +887,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -955,64 +954,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -1022,64 +1021,64 @@ const profile = {
             albumDescription: '',
             albumTracks: [
                 {
-                    trackName01: [''],
-                    trackPlayer01: [''],
-                    trackImage01: [''],
-                    trackDescription01: ['']
+                    tn01: [''],// Stands for TrackName
+                    tp01: [''], // Stands for 
+                    ti01: [''],
+                    td01: ['']
                 },
                 {
-                    trackName02: [''],
-                    trackPlayer02: [''],
-                    trackImage02: [''],
-                    trackDescription02: ['']
+                    tn02: [''],// Stands for TrackName
+                    tp02: [''], // Stands for 
+                    ti02: [''],
+                    td02: ['']
                 },
                 {
-                    trackName03: [''],
-                    trackPlayer03: [''],
-                    trackImage03: [''],
-                    trackDescription03: ['']
+                    tn03: [''],// Stands for TrackName
+                    tp03: [''], // Stands for 
+                    ti03: [''],
+                    td03: ['']
                 },
                 {
-                    trackName04: [''],
-                    trackPlayer04: [''],
-                    trackImage04: [''],
-                    trackDescription04: ['']
+                    tn04: [''],// Stands for TrackName
+                    tp04: [''], // Stands for 
+                    ti04: [''],
+                    td04: ['']
                 },
                 {
-                    trackName05: [''],
-                    trackPlayer05: [''],
-                    trackImage05: [''],
-                    trackDescription05: ['']
+                    tn05: [''],// Stands for TrackName
+                    tp05: [''], // Stands for 
+                    ti05: [''],
+                    td05: ['']
                 },
                 {
-                    trackName06: [''],
-                    trackPlayer06: [''],
-                    trackImage06: [''],
-                    trackDescription06: ['']
+                    tn06: [''],// Stands for TrackName
+                    tp06: [''], // Stands for 
+                    ti06: [''],
+                    td06: ['']
                 },
                 {
-                    trackName07: [''],
-                    trackPlayer07: [''],
-                    trackImage07: [''],
-                    trackDescription07: ['']
+                    tn07: [''],// Stands for TrackName
+                    tp07: [''], // Stands for 
+                    ti07: [''],
+                    td07: ['']
                 }, 
                 {
-                    trackName08: [''],
-                    trackPlayer08: [''],
-                    trackImage08: [''],
-                    trackDescription08: ['']
+                    tn08: [''],// Stands for TrackName
+                    tp08: [''], // Stands for 
+                    ti08: [''],
+                    td08: ['']
                 }, 
                 {
-                    trackName09: [''],
-                    trackPlayer09: [''],
-                    trackImage09: [''],
-                    trackDescription09: ['']
+                    tn09: [''],// Stands for TrackName
+                    tp09: [''], // Stands for 
+                    ti09: [''],
+                    td09: ['']
                 }, 
                 {
-                    trackName10: [''],
-                    trackPlayer10: [''],
-                    trackImage10: [''],
-                    trackDescription10: ['']
+                    tn10: [''],// Stands for TrackName
+                    tp10: [''], // Stands for 
+                    ti10: [''],
+                    td10: ['']
                 },                                                                                                                                
             ]
         },
@@ -1087,7 +1086,7 @@ const profile = {
     ]
 };
 
-function setprofile(){
+/* function setprofile(){
   for (var property in profileAlbums.albumName) {
     if (profileAlbums.albumName.hasOwnProperty(property)) {
       var target = document.getElementById(property);
@@ -1096,4 +1095,4 @@ function setprofile(){
       }
     }
   }
-}setprofile();
+}setprofile(); */

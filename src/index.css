@@ -1,7 +1,12 @@
 html{
   margin:0;
   padding:0;
+  position: relative;
+  background: darkgray;
 }
-.mainPage{
-  margin-left: 25%;
+body{
+  position: relative;
+  margin:1%;
+  padding: 1%;
+  background: gray;
 }
