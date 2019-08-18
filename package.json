@@ -50,6 +50,7 @@
     "nodemon": "^1.19.1",
     "prettier": "^1.18.2",
     "style-loader": "^1.0.0",
+    "stylelint-config-standard": "^18.3.0",
     "terser": "^4.1.4",
     "uglifyify": "^5.0.1",
     "webpack": "^4.39.1",
@@ -72,6 +73,7 @@
     "@babel/types": "^7.5.5",
     "babel-loader": "^8.0.6",
     "eslint-plugin-flowtype": "^4.2.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "stylelint": "^10.1.0"
   }
 }
