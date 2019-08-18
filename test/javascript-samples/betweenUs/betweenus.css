@@ -1,0 +1,9 @@
+#spaceBetween {
+    padding: 0.5%;
+    font-size: calc(1.3vw + 0.5vh + 0.3vmin);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    float: right;
+    color: #000000;
+    border: 4ex;
+}

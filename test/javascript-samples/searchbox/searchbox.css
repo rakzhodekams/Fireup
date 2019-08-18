@@ -1,0 +1,11 @@
+#search{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 60%;
+    height: 10px;
+    font-size: calc(1.3vw + 0.5vh + 0.3vmin);
+    color:white;
+    text-align: center;
+    background: black;
+}

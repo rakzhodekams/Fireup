@@ -1,0 +1,37 @@
+.album-btn{
+    padding: 2%;
+    font-size: calc(1.3vw + 0.5vh + 0.3vmin);
+    background-color: #000000;
+    color: gainsboro;
+    margin:2%;
+    border-left-color: #01fee0;
+    border-right-color: #01fee0;
+    border-top-color: #2ecc71;
+    border-bottom-color: #2ecc71
+  }
+  .tracks-btn{
+    padding: 2%;
+    font-size: calc(1.3vw + 0.5vh + 0.3vmin);
+    background-color: #000000;
+    color: gainsboro;
+    margin:2%;
+    border-left-color: #01fee0;
+    border-right-color: #01fee0;
+    border-top-color: #2ecc71;
+    border-bottom-color: #2ecc71
+  }
+  .artwork-btn{
+    padding: 2%;
+    font-size: calc(1.3vw + 0.5vh + 0.3vmin);
+    background-color: #000000;
+    color: gainsboro;
+    margin:2%;
+    border-left-color: #01fee0;
+    border-right-color: #01fee0;
+    border-top-color: #2ecc71;
+    border-bottom-color: #2ecc71
+  }
+  .artwork-btn:hover{
+    background: #e67e22;
+  }
+  

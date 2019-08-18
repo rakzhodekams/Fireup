@@ -1,0 +1,49 @@
+.topbox{
+    position: relative;
+    overflow: hidden;
+    align-content: center;
+    align-items: center;
+    align-self: auto;    
+    width:210px;
+    height:210px;
+    margin-left: 25%;
+    display: flex;
+  }
+  .topbox a{
+     text-indent:-9999px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10.3%;
+    border:4px solid;
+    border-left-color: #fbff00;
+    border-right-color: #fbff00;
+    border-top-color: #003cff;
+    border-bottom-color: #003cff;
+  }
+  .topbox a:hover{
+    border-radius: 0%;
+  }
+  #white{
+    background: #FFFFFF;
+  }
+  #blue{
+    background: #3498db;
+  }
+  #green{
+    background: #2ecc71;
+  }
+  #gray{
+    background: #34495e;
+  }
+  #yellow{
+    background: #f1c40f;
+  }
+  #orange{
+    background: #e67e22;
+  }
+  #red{
+    background: #e74c3c;
+  }
+  #black{
+    background: #000000;
+  }
