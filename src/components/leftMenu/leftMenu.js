@@ -9,7 +9,7 @@ const leftMenu = {
     to: "<b>ToolKit</b>",
 };
 
-function lm (){
+function lm(){
     for(var p in leftMenu){
         if(leftMenu.hasOwnProperty(p)){
             var t = document.getElementById(p);
@@ -18,7 +18,87 @@ function lm (){
             }
         }
     }
-}lm();
+}lm(); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* function showContent(content) {
+    document.getElementById('post').innerHTML = content;
+  }
+  
+  function setupshowContent() {
+    var contentText = [
+        {'id': 'email', 'help': 'Your e-mail address'},
+        {'id': 'name', 'help': 'Your full name'},
+        {'id': 'age', 'help': 'Your age (you must be over 16)'}
+      ];
+  
+    for (var i = 0; i < contentText.length; i++) {
+      (function() {
+         var item = contentText[i];
+         document.getElementById(item.id).onfocus = function() {
+           showContent(item.content);
+         };
+      })(); // Immediate event listener attachment with the current value of item (preserved until iteration).
+    }
+  }
+  
+  setupshowContent(); */
+
+
+/* function hasClass(elem, className) {
+    return elem.className.split(' ').indexOf(className) > -1;
+}
+
+document.addEventListener('click', function (e) {
+    if (hasClass(e.target, 'item yy')) {
+        document.getElementsByClassName('posts').innerHTML = 'YinYang';
+    } else if (hasClass(e.target, 'item t')) {
+        document.getElementsByClassName('posts').innerHTML = 'YinYang';
+    } else if (hasClass(e.target, 'item v')) {
+        document.getElementsByClassName('posts').innerHTML = 'YinYang';
+    } else if (hasClass(e.target, 'item w')) {
+        document.getElementsByClassName('posts').innerHTML = 'YinYang';
+    } else if (hasClass(e.target, 'item o')) {
+        document.getElementsByClassName('posts').innerHTML = 'YinYang';
+    } else if (hasClass(e.target, 'item lov')) {
+        document.getElementsByClassName('posts').innerHTML = 'YinYang';
+    } else if (hasClass(e.target, 'item li')) {
+        document.getElementsByClassName('posts').innerHTML = 'YinYang';
+    } else if (hasClass(e.target, 'item to')) {
+        document.getElementsByClassName('posts').innerHTML = 'YinYang';
+    }
+}, true); */
+
+
+
+
+
+
 
 
 /**

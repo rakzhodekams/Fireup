@@ -1,15 +1,12 @@
 const topMenus = {
-  art: '<a href="#">Art</a>',
-  blog: '<a href="#">Blog</a>',
-  code: '<a href="#">Code</a>',
-  de: '<a href="#">De</a>',
-  eg: '<a href="#">Eg</a>',
-  fun: '<a href="#">Fun</a>',
-  game: '<a href="#">Game</a>',
-  in: '<a href="#">In</a>',
-  lo: '<a href="#">Lo</a>',
-  om:'<a href="#">Om</a>',
-  wiki: '<a href="https://wiki.odicforcesounds.com/docs">Wiki</a>',
+  art: 'Art',
+  blog: 'Blog',
+  code: 'Code',
+  de: 'De',
+  eg: 'Eg',
+  fun: 'Fun',
+  game: 'Game',
+  wiki: 'Wiki',
 };
 
 function tmenu(){
@@ -22,4 +19,3 @@ function tmenu(){
     }
   }
 }tmenu();
-
