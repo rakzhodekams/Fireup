@@ -205,8 +205,8 @@ padding: 0.5%;
 }
 .posts{
   border: 2px solid tan;
-  padding: 10%;
-  font-size: calc(4.2vw + 0.5vh + 0.3vmin);
+  padding: 2%;
+  font-size: calc(1.2vw + 0.5vh + 0.3vmin);
 }
 .odicforcesounds{
   border:2px solid palegoldenrod;
