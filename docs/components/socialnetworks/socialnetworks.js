@@ -1,4 +1,5 @@
 const social = {
+  bandcamp: '<a target="_blank" href="https://odicforcesounds.bandcamp.com/"><img width=18px" src="./img/icons8-bandcamp.png"></a>',
   blogspot: '<a target="_blank" href="https://odicforcesounds.blogspot.com/"><img width="18px" src="./img/icons8-blogger-48.png"></a>',
   facebook: '<a target="_blank" href="https://www.facebook.com/odicforcesounds"><img width="18px" src="./img/icons8-facebook-circled-48.png"></a>',
   github: '<a target="_blank" href="https://github.com/rakzhodekams"><img width="18px" src="./img/icons8-octocat-48.png"></a>',
