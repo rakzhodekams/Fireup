@@ -36,6 +36,7 @@ header{
 }
 .socialnetworks{
   border: 2px solid yellow;
+  padding: 0.2%;
   text-align: center;
 }
 
@@ -55,8 +56,8 @@ header{
   border: 6px solid rgb(112, 218, 192); 
 }
 .menuLink:hover{
-  background: yellow;
-  color: #000000;
+  background: #000;
+  color:  aquamarine;
   border-radius: 50%;
 }
 .menuLink a{
@@ -123,14 +124,14 @@ padding: 0.5%;
     color:aquamarine;
 }
 #t:hover{
-  background: yellow;
+  background: aquamarine;
   color: #000000;
 }
 #v{
     color:greenyellow;
 }
 #v:hover{
-  background: yellow;
+  background: greenyellow;
   color: #000000;
 }
 #w{
@@ -144,46 +145,43 @@ padding: 0.5%;
     color:grey;
 }
 #o:hover{
-  background: yellow;
+  background: grey;
   color: #000000;
 }
 #lov{
     color: red;
 }
 #lov:hover{
-  background: yellow;
+  background: red;
   color: #000000;
 }
 #li{
     color: orange
 }
 #li:hover{
-  background: yellow;
+  background: orange;
   color: #000000;
 }
 #to{
     color: lightseagreen;
 }
 #to:hover{
-  background: yellow;
+  background: lightseagreen;
   color: #000000;
 }
 
 /****************************************************SOCIAL NETWORK ICONS*/
 #socialMedia{
-  position: relative;   
-  align-content: center;
-  align-items: center;
-  align-self: auto;
-  border: 2px solid rebeccapurple;
-  background: darkslategrey; 
-  padding: 1%;
+  position: relative;
+  border: 2px solid darkgreen;
+  background: lightgrey; 
+  padding: 0.3%;
 }
 #socialMedia a{
-  margin-left: 3%;
+  margin-left: 1%;
   border: 1px solid rgb(255, 251, 0);
   border-radius: 100%;
-  padding: 0.5%;
+  padding: 0.3%;
   align-content: center;
   align-items: center;
   align-self: auto;
