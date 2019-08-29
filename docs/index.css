@@ -216,11 +216,16 @@ max-width: 0.3vh;
 .postContent{
   text-align:center;
   border: 6px solid rgb(12, 71, 0);
-  font-size: 24px;
+  font-size: 22px;
   background: gray;
 }
 .postContent:hover{
   background: #000000;
   color: gray;
   border: 6px solid rgba(230, 243, 110, 0.609);
+}
+.slogan {
+  padding:0.5%;
+  color:white;
+  background:darkblue;
 }
