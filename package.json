@@ -75,6 +75,7 @@
     "babel-loader": "^8.0.6",
     "eslint-plugin-flowtype": "^4.2.0",
     "lodash": "^4.17.15",
+    "moment": "^2.24.0",
     "stylelint": "^10.1.0"
   }
 }
