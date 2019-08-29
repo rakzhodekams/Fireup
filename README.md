@@ -14,12 +14,12 @@ npm install --global @babel/cli eslint jshint
 ```
 Clone this repository: 
 ```sh
-$ git clone https://github.com/rakzhodekams/BabeLearning
+$ git clone https://github.com/rakzhodekams/Fireup
 ```
 then
 
 ```sh
-$ cd BabeLearning
+$ cd Fireup
 $ npm install 
 $ npm start
 ```
