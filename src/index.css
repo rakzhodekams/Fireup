@@ -49,6 +49,8 @@ h1 h2 h3 h4 h5 h6:hover{
   text-align: center;
   align-self: auto;
   padding: 2%;
+  margin-top:0.5%;
+  margin-bottom:1%;
 }
 .menuLink{
   position: relative;
@@ -174,15 +176,11 @@ max-width: 0.3vh;
   padding: 0.3%;
 }
 #socialMedia a{
-  margin-left: 1.3%;
-  border-radius: 100%;
+  margin-left: 0.3%;
   padding: 0.5%;
   align-content: center;
   align-items: center;
   align-self: auto;
-}
-#socialMedia a:hover{
-    background: lightgreen;
 }
 /***************************************************MAIN-PAGE*/
 .mainPage{
@@ -198,7 +196,7 @@ max-width: 0.3vh;
 .postsTitle{
   text-align:center;
   border: 6px solid rgb(12, 71, 0);
-  padding: 2%;
+  padding: 1%;
   background: gray;
 }
 .postsTitle:hover{

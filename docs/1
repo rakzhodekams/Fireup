@@ -196,7 +196,7 @@ max-width: 0.3vh;
 .postsTitle{
   text-align:center;
   border: 6px solid rgb(12, 71, 0);
-  padding: 1%;
+  padding: 2%;
   background: gray;
 }
 .postsTitle:hover{
