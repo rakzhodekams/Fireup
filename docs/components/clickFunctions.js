@@ -42,3 +42,35 @@ function wiki(){
   document.querySelector('.postContent').innerHTML = '<p> LoL <b> this should have wiki content </p>';
 }
 
+function yy(){
+  document.querySelector('.odicMainPage').innerHTML = '<p> <b>YinYang</b> this is pure old JavaScript code, but it Works!</p>';
+}
+
+function t(){
+  document.querySelector('.odicMainPage').innerHTML = '<p> <b> Tao / Dao </b> this is pure old JavaScript code, but it Works!</p>';
+}
+
+function v(){
+  document.querySelector('.odicMainPage').innerHTML = '<p> <b> Visions</b> this is pure old JavaScript code, but it Works!</p>';
+}
+
+function w(){
+  document.querySelector('.odicMainPage').innerHTML = '<p> <b>Who</b> this is pure old JavaScript code, but it Works!</p>';
+}
+
+function o(){
+  document.querySelector('.odicMainPage').innerHTML = '<p> <b>OscarFM</b> this is pure old JavaScript code, but it Works!</p>';
+}
+
+function lov(){
+  document.querySelector('.odicMainPage').innerHTML = '<p> <b>Love</b> this is pure old JavaScript code, but it Works!</h1>';
+}
+
+function li(){
+  document.querySelector('.odicMainPage').innerHTML = '<p> <b>License</b>this is pure old JavaScript code, but it Works!</p>';
+}
+
+function to(){
+  document.querySelector('.odicMainPage').innerHTML = '<p> <b>Tool Kit</b> this is pure old JavaScript code, but it Works!</p>';
+}
+
