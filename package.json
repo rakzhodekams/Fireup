@@ -1,7 +1,7 @@
 {
   "name": "fireup",
   "version": "1.0.0",
-  "description": "learning babel js",
+  "description": "Learning babel js as a Baby",
   "main": "index.js",
   "bin": {
     "formatted-linting": "./node_modules/.bin/index.js"
