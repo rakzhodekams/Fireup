@@ -50,7 +50,7 @@ h1 h2 h3 h4 h5 h6:hover{
   align-self: auto;
   padding: 2%;
   margin-top:0.5%;
-  margin-bottom:1%;
+  margin-bottom:0.5%;
 }
 .menuLink{
   position: relative;
@@ -194,13 +194,13 @@ max-width: 0.3vh;
 }
 
 .postsTitle{
-  text-align:center;
+  text-align:justify;
   border: 6px solid rgb(12, 71, 0);
   padding: 1%;
+  font-size:22px;
   background: gray;
 }
 .postsTitle:hover{
-  text-align:center;
   background: #000000;
   color: gray;
   border: 6px solid rgb(229, 255, 0);
@@ -214,7 +214,7 @@ max-width: 0.3vh;
 }
 
 .postContent{
-  text-align:center;
+  text-align:justify;
   border: 6px solid rgb(12, 71, 0);
   font-size: 22px;
   background: gray;
@@ -222,10 +222,22 @@ max-width: 0.3vh;
 .postContent:hover{
   background: #000000;
   color: gray;
-  border: 6px solid rgba(230, 243, 110, 0.609);
+  border: 6px solid yellow;
 }
+.postContent p{
+  margin:1%;
+}
+
 .slogan {
+  text-align:center;
   padding:0.5%;
   color:white;
   background:darkblue;
+}
+.rootPath{
+  display: block;
+  text-align:center;
+  background:brown;
+  color:lightgreen;
+  font-size:18px;
 }

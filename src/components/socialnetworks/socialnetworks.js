@@ -8,6 +8,7 @@ const social = {
   ideaswatch: '<a target="_blank" href="https://www.ideaswatch.com/startup-idea/world-wide-brands-competition--world-cleaner-"><img width="18px" src="./img/icons8-ideaswatch-48.png"></a>',
   instagram: '<a target="_blank" href="https://www.instagram.com/odicforcesounds/"><img width="18px" src="./img/icons8-instagram-48.png"></a>',
   keybase: '<a target="_blank" href="https://keybase.io/path_of_shields"><img width="18px" src="./img/icons8-keybase-48.png"></a>',
+  linkedin: '<a target="_blank" href="https://pt.linkedin.com/in/rakzhodekams"><img width="18px" src="./img/icons8-linkedin-48.png"></a>',
   mixcloud: '<a target="_blank" href="https://mixcloud.com/odicforcesounds"><img width="18px" src="./img/icons8-mixcloud-48.png"></a>',
   reddit: '<a target="_blank" href="https://www.reddit.com/user/odicforcesounds/"><img width="18px" src="./img/icons8-reddit-48.png"></a>',
   soundcloud: '<a target="_blank" href="https://www.soundcloud.com/odicforcesounds_signals_of_time/"><img width="18px" src="./img/icons8-soundcloud-48.png"></a>',
